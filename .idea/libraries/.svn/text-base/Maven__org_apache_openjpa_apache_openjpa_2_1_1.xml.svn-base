@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.openjpa:apache-openjpa:2.1.1">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/openjpa/apache-openjpa/2.1.1/apache-openjpa-2.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/openjpa/apache-openjpa/2.1.1/apache-openjpa-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/appidgeayk6b697/!svn/ver/63/itaohome/src/main/webapp/WEB-INF/spring
+END
+spring-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/appidgeayk6b697/!svn/ver/64/itaohome/src/main/webapp/WEB-INF/spring/spring-context.xml
+END
+spring-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/appidgeayk6b697/!svn/ver/64/itaohome/src/main/webapp/WEB-INF/spring/spring-security.xml
+END
+spring-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/appidgeayk6b697/!svn/ver/64/itaohome/src/main/webapp/WEB-INF/spring/spring-servlet.xml
+END

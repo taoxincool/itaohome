@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: javax.persistence:ejb:3.0-public-draft-20050623">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/ejb/3.0-public-draft-20050623/ejb-3.0-public-draft-20050623-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/ejb/3.0-public-draft-20050623/ejb-3.0-public-draft-20050623-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

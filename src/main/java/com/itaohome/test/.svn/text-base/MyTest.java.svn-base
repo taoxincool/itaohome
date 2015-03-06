@@ -1,0 +1,77 @@
+package com.itaohome.test;
+
+import com.itaohome.service.WeService;
+import com.itaohome.util.HttpUtils;
+import com.itaohome.util.WeUtils;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.type.TypeReference;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by Mr tao on 2015/1/15.
+ */
+public class MyTest {
+
+    @Test
+    public void testSubs(){
+        ApplicationContext applicationContext = new FileSystemXmlApplicationContext("D:\\idea\\test\\itaohome\\src\\main\\webapp\\WEB-INF\\spring\\spring-servlet.xml");
+        WeService weService = (WeService) applicationContext.getBean("weService");
+        //System.out.println("===============================================password is " + userService.findByUsername("1015").getPassword());
+    }
+
+    @Test
+    public void testExc(){
+        try {
+            int a = 1/0;
+        } catch (Exception e) {
+            System.out.println(WeUtils.getExceptionMessage(e));
+            //System.out.println(getExceptionMessage(e));
+        }
+
+    }
+
+    @Test
+    public void testToken() {
+
+        //模拟get
+        try {
+            String url = "https://api.weixin.qq.com/cgi-bin/token";
+            String params = "grant_type=client_credential&appid=wx4e0465dd6a4be55a&secret=8afad22962affafae48032d068900627";
+            //String params = "grant_type=client_credential&appid=wxbf82e34cbe52dd15&secret=45e99767bc5a58c7b80d66524d109fec";
+            String responseBody = HttpUtils.doGet(url, params, "GBK", true);
+            ObjectMapper mapper = new ObjectMapper();
+            Map<String, String> map = mapper.readValue(responseBody, new TypeReference<Map<String, String>>() {
+            });
+            String result = map.get("access_token");
+            System.out.println(result);
+
+            String url2 = "https://api.weixin.qq.com/datacube/getusercumulate?access_token="+result;
+            //String url2 = "https://api.weixin.qq.com/datacube/getusercumulate";
+            Map<String, String> params2 = new HashMap<String, String>();
+            //params2.put("access_token", result);
+            params2.put("begin_date","2015-01-01");
+            params2.put("end_date","2015-01-17");
+            String result2 = HttpUtils.doPost(url2, params2, "GBK", true);
+            System.out.println(result2);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+       /* //模拟post
+        String url = "https://api.weixin.qq.com/datacube/getusersummary";
+        Map<String, String> params2 = new HashMap<String, String>();
+        params.put("access_token", getAccessToken());
+        params.put("begin_date","2014-12-02");
+        params.put("end_date","2014-12-07");
+        String result = doPost( url,params2,"GBK", true);
+        System.out.println(result);*/
+    }
+
+
+}

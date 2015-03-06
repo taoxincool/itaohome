@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/appidgeayk6b697/!svn/ver/55/itaohome/src/main/java/com/itaohome/repository
+END
+RoleRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/appidgeayk6b697/!svn/ver/64/itaohome/src/main/java/com/itaohome/repository/RoleRepository.java
+END
+LogRepositoryCustom.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/appidgeayk6b697/!svn/ver/21/itaohome/src/main/java/com/itaohome/repository/LogRepositoryCustom.java
+END
+LogRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/appidgeayk6b697/!svn/ver/21/itaohome/src/main/java/com/itaohome/repository/LogRepository.java
+END
+FansRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/appidgeayk6b697/!svn/ver/33/itaohome/src/main/java/com/itaohome/repository/FansRepository.java
+END
+AutoReplyNewsRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/appidgeayk6b697/!svn/ver/55/itaohome/src/main/java/com/itaohome/repository/AutoReplyNewsRepository.java
+END
+AutoReplyRepositoryCustom.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/appidgeayk6b697/!svn/ver/40/itaohome/src/main/java/com/itaohome/repository/AutoReplyRepositoryCustom.java
+END
+AutoReplyRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/appidgeayk6b697/!svn/ver/54/itaohome/src/main/java/com/itaohome/repository/AutoReplyRepository.java
+END
+UserRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/appidgeayk6b697/!svn/ver/64/itaohome/src/main/java/com/itaohome/repository/UserRepository.java
+END
+CommonRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/appidgeayk6b697/!svn/ver/45/itaohome/src/main/java/com/itaohome/repository/CommonRepository.java
+END
+MessageRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/appidgeayk6b697/!svn/ver/21/itaohome/src/main/java/com/itaohome/repository/MessageRepository.java
+END

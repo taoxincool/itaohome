@@ -1,0 +1,104 @@
+10
+
+dir
+63
+https://svn.duapp.com/appidgeayk6b697/itaohome/src/main/webapp/WEB-INF/views
+https://svn.duapp.com/appidgeayk6b697
+
+
+
+2015-01-23T03:50:12.833277Z
+61
+taoxinshuaia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a0beb16-39a9-491a-8432-0dfbb1476d54
+
+auth
+dir
+
+common
+dir
+
+f
+dir
+
+home.jsp
+file
+
+
+
+
+2015-01-20T05:06:38.167000Z
+d01f30cb37ba36924eba05a4e9e1ce89
+2015-01-20T05:08:33.070342Z
+57
+taoxinshuaia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2139
+
+l
+dir
+
+login.jsp
+file
+64
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+m
+dir
+
+reply
+dir
+
